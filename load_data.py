@@ -48,10 +48,10 @@ conn.execute(
 # load CSV into the table
 try:
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(base_dir, 'data', 'Superstore.csv')
+    csv_path = os.path.join(base_dir, 'data', 'superstore.csv')
     df = pd.read_csv(csv_path)
-    df.to_sql('Superstore', engine, if_exists='fail', index=False)
+    df.to_sql('superstore', engine, if_exists='fail', index=False)
 except ValueError:
-    print("Table and Data already exist")
+    print("Table and Data already exists")
 
 

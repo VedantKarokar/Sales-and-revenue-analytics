@@ -1,5 +1,4 @@
--- Active: 1778493718025@@127.0.0.1@5432@superstore_db
-CREATE TABLE superstore(
+CREATE TABLE IF NOT EXISTS superstore (
     "Row ID"  INT,
     "Order ID"    CHAR(255),
     "Order Date"  DATE,
