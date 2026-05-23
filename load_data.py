@@ -50,7 +50,7 @@ with engine.connect() as conn:
     check = conn.execute(text("SELECT COUNT(*) FROM superstore;"))
     
     # Checks if there are no rows in the table and loads data
-    if check == 0:
+    if check.scalar() == 0:
         # Loads data
         df = pd.read_csv(r"data/Superstore.csv")
         df.to_sql('superstore', conn, if_exists='append', index=False)
