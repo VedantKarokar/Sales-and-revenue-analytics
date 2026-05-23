@@ -97,4 +97,5 @@ The dashboard is structured across three pages, each answering a distinct busine
 3. Run the SQL scripts in `/queries` in numbered order against a PostgreSQL database
 4. Open the Power BI `.pbix` file and reconnect to your local PostgreSQL instance
 
+<iframe title="S&R dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=31407923-9d8f-4c28-961e-5b697ac08fd3&autoAuth=true&ctid=17e5a684-4de3-47a4-8d5f-dbc9bd6f5bb9" frameborder="0" allowFullScreen="true"></iframe>
 ---

@@ -1,3 +1,4 @@
+-- The following schema is for diplay purpose only.
 CREATE TABLE IF NOT EXISTS superstore (
     "Row ID"  INT,
     "Order ID"    CHAR(255),

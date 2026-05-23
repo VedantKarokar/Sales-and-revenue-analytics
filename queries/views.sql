@@ -5,7 +5,7 @@ CREATE VIEW Measures AS
            COUNT(DISTINCT "Customer ID") AS total_customers,
            (SUM("Profit")/SUM("Sales")) * 100 AS margin,
             SUM("Sales")/COUNT(DISTINCT "Order ID") AS aov,
-            (SUM("Discount") * SUM("Sales")) AS discount_impact
+            (SUM("Discount" * "Sales")) AS discount_impact
         FROM superstore;
 SELECT * FROM Measures;
 
