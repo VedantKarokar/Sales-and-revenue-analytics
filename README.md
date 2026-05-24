@@ -45,13 +45,6 @@ Sales-and-revenue-analytics/
 
 ---
 
-## Dataset
-**Source:** [Superstore Sales Dataset — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-
-**Description:** A retail dataset containing order, customer, product, shipping, sales, discount, and profit information. The dataset is used for sales performance analysis, product profitability, regional performance, and customer value.
-
----
-
 ## Tools Used
 - PostgreSQL
 - Docker
