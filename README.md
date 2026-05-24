@@ -78,11 +78,7 @@ Sales-and-revenue-analytics/
 Superstore Analytics — Key Findings
 Based on 2014–2017 transactional data across all regions and segments
 
-`Total Sales: $2.30M`
-
-`Total Profit: $286.4K`
-
-`Profit Margin: 12.47%`
+`Total Sales: $2.30M` `Total Profit: $286.4K` `Profit Margin: 12.47%`
 
 - Sales grew from $484K in 2014 to $733K in 2017 a 51% increase over four years. Q4 consistently outperforms all other quarters each year, suggesting strong seasonal demand that could be leveraged for targeted campaigns.
 
