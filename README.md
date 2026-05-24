@@ -1,8 +1,15 @@
 # Sales & Revenue Analytics
 > End-to-end retail analytics from raw Superstore data to PostgreSQL, through SQL transformation, into a Power BI dashboard.
+---
+## Objective
+This analysis answers three business questions:
+ 
+- Where is money being made and where is it being lost?
+- Which products, categories, and regions drive the most revenue?
+- Who are the most valuable customers?
+
 
 ---
-
 ## Project Overview
 This repository supports a sales analytics workflow for Superstore retail data. It includes:
 - a data load script for PostgreSQL,
@@ -77,6 +84,32 @@ View the interactive [**Dashboard**](https://app.powerbi.com/reportEmbed?reportI
 4. Run the command in powershell `python load_data.py` to create the `superstore` table and load the data.
 5. Use the SQL files in `/queries` to build analytics views.
 6. Open the Power BI dashboard using link or connect it to the PostgreSQL database if needed.
+
+---
+ 
+## Key Findings
+Superstore Analytics — Key Findings
+Based on 2014–2017 transactional data across all regions and segments
+
+`Total Sales: $2.30M`
+
+`Total Profit: $286.4K`
+
+`Profit Margin: 12.47%`
+
+- Sales grew from $484K in 2014 to $733K in 2017 a 51% increase over four years. Q4 consistently outperforms all other quarters each year, suggesting strong seasonal demand that could be leveraged for targeted campaigns.
+
+- West leads all regions in total sales, followed closely by East. Central and South trail significantly. South represents an underperforming market with potential for growth through region-specific strategies.
+
+- Consumer (50.56%) dominates segment contribution, with Corporate at 30.74% and Home Office at 18.7%. Despite this, Corporate orders likely carry higher AOV a segment worth prioritising for deeper penetration given its profit efficiency.
+
+- The waterfall chart reveals Copiers and Phones contribute the most to cumulative profit. These are high margin products that anchor overall profitability and should be protected from heavy discounting.
+
+- Tables register a loss of $18K the only sub-category in negative territory. This is a critical flag. The business is selling Tables at a net loss, likely due to heavy discounting or poor pricing strategy. Immediate review of pricing and discount policy for this sub-category is recommended.
+
+- Standard Class dominates profit contribution across all ship modes at ~$164K, with Second Class and First Class significantly behind. Same Day delivery contributes the least worth evaluating whether the cost of offering it justifies its current usage and margin.
+
+**Bottom line:** The business is growing steadily but margin pressure exists at the sub-category level. Prioritise Copiers and Phones, fix the Tables pricing problem, and double down on Q4 and the West/East regions for maximum impact.
 
 ---
 
