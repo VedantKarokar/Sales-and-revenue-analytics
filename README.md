@@ -108,13 +108,16 @@ Based on 2014–2017 transactional data across all regions and segments
 ---
 ## Dashboard Visuals
 **Page 1:**
-![alt text](<Screenshot 2026-05-23 132951.png>)
+![alt text](<visuals/Screenshot 2026-05-23 132951-1.png>)
+
 **Page 2:**
-![alt text](<Screenshot 2026-05-24 110140.png>)
+![alt text](<visuals/Screenshot 2026-05-24 110140.png>)
+
 **Page 3:**
-![alt text](<Screenshot 2026-05-24 110157.png>)
+![alt text](<visuals/Screenshot 2026-05-24 110157.png>)
+
 **Page 4:**
-![alt text](<Screenshot 2026-05-24 110218.png>)
+![alt text](<visuals/Screenshot 2026-05-24 110218.png>)
 
 ---
 ## Notes
