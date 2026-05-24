@@ -36,18 +36,12 @@ Sales-and-revenue-analytics/
 ```
 
 ### Key files
-- `load_data.py` — loads `data/Superstore.csv` into PostgreSQL using SQLAlchemy.
-- `requirements.txt` — Python dependencies required for data loading.
-- `schema/schema.sql` — PostgreSQL table schema definition for the Superstore data.
-- `queries/features.sql` — SQL logic for feature creation and analytics.
-- `queries/views.sql` — SQL views built for reporting and dashboard consumption.
-
----
-
-## Dashboard Access
-View the interactive [**Dashboard**](https://app.powerbi.com/reportEmbed?reportId=31407923-9d8f-4c28-961e-5b697ac08fd3&autoAuth=true&ctid=17e5a684-4de3-47a4-8d5f-dbc9bd6f5bb9) to explore sales, profitability, and customer insights.
-
-> Click the Dashboard link above to open the live Power BI report in your browser.
+- `load_data.py` - loads `data/Superstore.csv` into PostgreSQL using SQLAlchemy.
+- `requirements.txt` - Python dependencies required for data loading.
+- `schema/schema.sql` - PostgreSQL table schema definition for the Superstore data.
+- `queries/features.sql` - SQL logic for feature creation and analytics.
+- `queries/views.sql` - SQL views built for reporting and dashboard consumption.
+- `dashboard/dashboard.pbix` - dashboard for cleaning and analysis using visuals.
 
 ---
 
@@ -60,11 +54,11 @@ View the interactive [**Dashboard**](https://app.powerbi.com/reportEmbed?reportI
 
 ## Tools Used
 - PostgreSQL
-- Python 3
-- SQLAlchemy
-- pandas
-- Power BI Desktop
 - Docker
+- Python 3
+    - SQLAlchemy
+    - pandas
+- Power BI Desktop
 
 ---
 
@@ -86,7 +80,7 @@ View the interactive [**Dashboard**](https://app.powerbi.com/reportEmbed?reportI
 6. Open the Power BI dashboard using link or connect it to the PostgreSQL database if needed.
 
 ---
- 
+
 ## Key Findings
 Superstore Analytics — Key Findings
 Based on 2014–2017 transactional data across all regions and segments
@@ -112,7 +106,17 @@ Based on 2014–2017 transactional data across all regions and segments
 **Bottom line:** The business is growing steadily but margin pressure exists at the sub-category level. Prioritise Copiers and Phones, fix the Tables pricing problem, and double down on Q4 and the West/East regions for maximum impact.
 
 ---
+## Dashboard Visuals
+**Page 1:**
+![alt text](<Screenshot 2026-05-23 132951.png>)
+**Page 2:**
+![alt text](<Screenshot 2026-05-24 110140.png>)
+**Page 3:**
+![alt text](<Screenshot 2026-05-24 110157.png>)
+**Page 4:**
+![alt text](<Screenshot 2026-05-24 110218.png>)
 
+---
 ## Notes
 - `load_data.py` checks whether the `superstore` table already contains rows and skips loading if data exists.
 - `schema/schema.sql` documents the expected table structure for this project.
