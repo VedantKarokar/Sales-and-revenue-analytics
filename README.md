@@ -1,4 +1,4 @@
-# Sales & Revenue Analytics
+# Superstore Sales & Revenue Analytics
 > End-to-end retail analytics from raw Superstore data to PostgreSQL, through SQL transformation, into a Power BI dashboard.
 ---
 ## Objective
@@ -70,7 +70,7 @@ Sales-and-revenue-analytics/
     and connect to PostgreSQL using any thirdparty extension.
 4. Run the command in powershell `python load_data.py` to create the `superstore` table and load the data.
 5. Use the SQL files in `/queries` to build analytics views.
-6. Open the Power BI dashboard using link or connect it to the PostgreSQL database if needed.
+6. Open the Power BI dashboard using [link](https://app.powerbi.com/reportEmbed?reportId=31407923-9d8f-4c28-961e-5b697ac08fd3&autoAuth=true&ctid=17e5a684-4de3-47a4-8d5f-dbc9bd6f5bb9) or connect it to the PostgreSQL database if needed.
 
 ---
 
@@ -96,6 +96,9 @@ Based on 2014–2017 transactional data across all regions and segments
 
 ---
 ## Dashboard Visuals
+
+Power BI - [dashboard](https://app.powerbi.com/reportEmbed?reportId=31407923-9d8f-4c28-961e-5b697ac08fd3&autoAuth=true&ctid=17e5a684-4de3-47a4-8d5f-dbc9bd6f5bb9)
+
 **Page 1:**
 ![alt text](<visuals/Screenshot 2026-05-23 132951-1.png>)
 
@@ -110,6 +113,6 @@ Based on 2014–2017 transactional data across all regions and segments
 
 ---
 ## Notes
-- `load_data.py` checks whether the `superstore` table already contains rows and skips loading if data exists.
-- `schema/schema.sql` documents the expected table structure for this project.
-
+- `load_data.py` checks whether the `superstore` table already contains rows and skips loading if data exists, run it.
+- `schema/schema.sql` documents the expected table structure for this project and it is for display purpose only, don't run it.
+- `dashboard/dashboard.pbix` consists of the powerbi dashboard, you can locally import it in your own powerbi and interact with it or other alternatives are link and images.
