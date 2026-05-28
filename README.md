@@ -62,8 +62,8 @@ Sales-and-revenue-analytics/
    pip install -r requirements.txt
    ```
 2. Configure PostgreSQL credentials in a `.env` file, use '.env.example' as a reference.
-3. Create `/data` and place `Superstore.csv` inside it.
-4. Run the command
+3. Create `/data` and place `Superstore.csv` inside it and download the dataset from this [link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
+5. Run the command
     ```powershell
     docker compose up
     ```
